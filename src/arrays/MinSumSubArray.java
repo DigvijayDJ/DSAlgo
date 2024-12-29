@@ -1,11 +1,7 @@
+package arrays;
 
-import java.util.*;
-import java.lang.*;
-import java.io.*;
 
-/* Name of the class has to be "Main" only if the class is public. */
-class Ideone
-{
+public class MinSumSubArray {
 	
 	static int MinSum(int[] arr, int k){
 		int sum = 0;

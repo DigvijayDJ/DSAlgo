@@ -1,11 +1,8 @@
-import java.util.*;
+package arrays;
 import java.lang.*;
-import java.io.*;
 
-/* Name of the class has to be "Main" only if the class is public. */
-class Ideone
-{
-	static int MaxElement(int[] arr){
+public class MaxElement{
+	static int maxEle(int[] arr){
 		int n = arr.length;
 		int Max = 0;
 		
@@ -22,6 +19,6 @@ class Ideone
 	{
 		// your code goes here
 		int[] arr = {10, 324, 45, 90, 9808};
-		System.out.println(MaxElement(arr));
+		System.out.println(maxEle(arr));
 	}
 }

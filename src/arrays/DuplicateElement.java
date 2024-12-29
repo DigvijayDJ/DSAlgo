@@ -1,10 +1,9 @@
-import java.util.*;
+package arrays;
 import java.lang.*;
-import java.io.*;
 
-/* Name of the class has to be "Main" only if the class is public. */
-class Ideone
-{
+
+
+public class DuplicateElement {
 	
 	static void DuplicateElement(int[] arr, int n){
 		for(int i=0;i<n;i++){
@@ -13,7 +12,7 @@ class Ideone
 			}
 			else
 			{
-				System.out.print(Math.abs(arr[i]));
+				System.out.println(Math.abs(arr[i]));
 			}
 		}
 	}
