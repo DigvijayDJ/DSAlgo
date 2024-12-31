@@ -8,10 +8,10 @@ public class DoublyLLImpl {
     dll.add(3);
     dll.add(4);
     dll.add(5);
-    System.out.println("Original List : ");
+    System.out.println("Original List of Length : "+dll.lengthDLL());
     dll.displayDLL();
-    dll.delete(3);
-    System.out.println("Modified List : ");
+    dll.delete(6);
+    System.out.println("Modified List of Length : "+dll.lengthDLL());
     dll.displayDLL();
 
     }

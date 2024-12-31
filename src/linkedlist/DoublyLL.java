@@ -39,6 +39,10 @@ public class DoublyLL {
         while(current != null && current.data != key){
             current = current.next;
         }
+        if(current == null){
+            System.out.println("Key is not found in List.");
+            return;
+        }
         if(current ==head){         //  if head is the key element
             head = head.next;
             if (head!=null){        //
@@ -75,6 +79,16 @@ public class DoublyLL {
             current = current.next;
         }
         System.out.println("null");
+    }
+
+    public int lengthDLL(){
+        Node current = head;
+        int count = 0;
+        while (current!=null){
+            current = current.next;
+            count++;
+        }
+        return count;
     }
 
 }
